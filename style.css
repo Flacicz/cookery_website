@@ -1,0 +1,713 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* first block */
+.first_block {
+    background-image: url(//res2.weblium.site/res/5cb43e8114a01200248b0171/5cb441a349aeac0023a286a3_optimized);
+    height: 100vh;
+}
+
+.header {
+    padding: 45px 0;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo {
+    display: flex;
+    width: 220px;
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    line-height: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.nav_link {
+    margin: 0 13px;
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    color: white;
+    font-size: 80px;
+    margin-top: 150px;
+}
+
+.title p {
+    color: white;
+    font-size: 24px;
+    margin: 50px 0;
+}
+
+/* second block */
+.second_block {
+    padding: 100px 0 50px;
+    text-align: center;
+    background: fixed no-repeat 50% 50% / cover url(//res2.weblium.site/res/5cb43e8114a01200248b0171/5cb4442349aeac0023a29d17_optimized_1920)
+}
+
+.second_block_container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.second_block h1{
+    color: white;
+    font-size: 32px;
+}
+
+.second_block h1::after,
+.second_block h1::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 20px;
+    height: 1px;
+    width: 350px;
+    background-color: ghostwhite;
+}
+
+.second_block p {
+    color: white;
+    font-size: 24px;
+}
+
+.second_block p::after {
+    content: "";
+    display: block;
+    margin: 50px auto 0;
+    height: 1px;
+    width: 925px;
+    background-color: ghostwhite;
+}
+
+/* third_block */
+.third_block {
+    text-align: center;
+    background-color: white;
+    height: 620px;
+    margin-top: 100px;
+}
+
+.third_block_container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.third_block h1 {
+    font-size: 32px;
+}
+
+.cards {
+    columns: 4;
+}
+
+.card img {
+    width: 270px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.accordion {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion h3 {
+    display: inline-block;
+    font-size: 22px;
+}
+
+.accordion p {
+    display: inline-block;
+    text-align: left;
+    font-size: 18px;
+}
+
+/* fourth block */
+.fourth_block {
+    background: url("//res2.weblium.site/res/5cb43e8114a01200248b0171/5ccd900b7ec61c0023c7b410_optimized_1920") no-repeat;
+    height: 100vh;
+}
+
+.fourth_container {
+    background: rgba(104, 79, 64, 0.9);
+    height: 100vh;
+}
+
+.menu_container {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.menu_container h1 {
+    padding-top: 100px;
+    color: white;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+
+.menu_categories {
+    display: flex;
+    justify-content: center;
+}
+
+.menu_categories h3 {
+    margin: 50px 20px;
+    font-size: 24px;
+    color: silver;
+    transition: .2s ease-in;
+}
+
+.menu_categories h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+
+.menu_categories h3[data-active=true] {
+    text-decoration: underline;
+    color: white;
+}
+
+.menu {
+    columns: 2;
+    text-align: left;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.food {
+    width: 500px;
+    height: 130px;
+}
+
+.flex_title_and_price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food_title {
+    color: white;
+    font-size: 24px;
+}
+
+.food_price {
+    color: white;
+    font-size: 24px;
+}
+
+/* 
+.food_price::before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 2px;
+    width: 290px;
+    margin: 10px 10px 0;
+    background-color: silver;
+} */
+
+
+.food_desc {
+    font-size: 22px;
+    color: silver;
+    margin: 0;
+}
+
+.breakfasts {
+    display: none;
+}
+
+.lunches_and_dinners {
+    display: none;
+}
+
+.download {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.download_menu {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    border-radius: 50px;
+    transition: .3s ease-in;
+    cursor: pointer;
+}
+
+.download_menu:hover {
+    color: orange;
+    border: 2px solid orange;
+    cursor: pointer;
+}
+
+/* fifth block */
+.fifth_block {
+    height: 700px;
+    background: white;
+}
+
+.fifth_container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about_us {
+    margin-top: 80px;
+}
+
+.about_us_p {
+    color: gray;
+    font-size: 20px;
+}
+
+.slider_container {
+    width: 370px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.about_us_images {
+    display: flex;
+    height: 400px;
+    transition-duration: .5s;
+}
+
+.about_us_images img {
+    width: 370px;
+    height: 330px;
+}
+
+/* arrows */
+.arrow {
+    width: 7px;
+    height: 7px;
+    border-top: #cacaca 3px solid;
+    border-right: #cacaca 3px solid;
+    position: absolute;
+}
+
+.arrow-bg {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, .2);
+    border-radius: 50%;
+    position: relative;
+    opacity: .8;
+    cursor: pointer;
+}
+
+.arrow-left .arrow {
+    transform: rotate(-135deg);
+    top: 12px;
+    left: 12px;
+}
+
+.arrow-right .arrow {
+    transform: rotate(45deg);
+    top: 12px;
+    left: 12px;
+}
+
+.arrow-left {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.arrow-right {
+    position: absolute;
+    top: 50%;
+    right: 1px;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+/* more info */
+
+.more_info {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.more_info_button {
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 50px;
+    transition: .3s ease-in;
+    cursor: pointer;
+}
+
+.more_info_button:hover {
+    color: orange;
+    border: 2px solid orange;
+    cursor: pointer;
+}
+
+/* sixth block */
+.sixth_block {
+    height: 625px;
+    background: url(//res2.weblium.site/res/5cb43e8114a01200248b0171/5cbd6e8a9172ce00235977fa_optimized_1920) fixed no-repeat 16.88% 55.2% / cover;
+    position: relative;
+}
+
+.sixth_container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 160px;
+}
+
+.sixth_container h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.sixth_container p {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+/* seventh block */
+.seventh_block {
+    height: 840px;
+    background: white;
+}
+
+.seventh_container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 90px 0 100px;
+}
+
+.seventh_container img {
+    width: 1170px;
+    height: 650px;
+}
+
+/* eighth block */
+.eighth_block {
+    height: 1240px;
+    background: fixed no-repeat 50% 50% / cover url(//res2.weblium.site/res/5cb43e8114a01200248b0171/5cbd73bc9172ce0023599faf_optimized_1920)
+}
+
+.eighth_container {
+    width: 1200px;
+    margin: 100px auto 0;
+    text-align: center;
+}
+
+.recipies_container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr [col-start]);
+    grid-gap: 30px;
+    padding-bottom: 100px;
+}
+
+.eighth_container h1 {
+    padding-top: 50px;
+}
+
+.second_column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* recipe 1 */
+
+.recipies1 {
+    width: 670px;
+    height: 860px;
+    background: white;
+}
+
+.recipies1 img {
+    width: 670px;
+    height: 730px;
+}
+
+.info {
+    text-align: left;
+    padding: 0 20px 10px;
+}
+
+.info h3 {
+    font-size: 24px;
+}
+
+.info span {
+    font-size: 20px;
+}
+
+/* recipe 2 */
+
+.recipies2 {
+    width: 470px;
+    height: 430px;
+    background: white;
+}
+
+.recipies2 img {
+    width: 470px;
+    height: 300px;
+}
+
+.info {
+    text-align: left;
+    padding: 0 20px 10px;
+}
+
+.info h3 {
+    font-size: 24px;
+}
+
+.info span {
+    font-size: 20px;
+}
+
+/* recipe 3 */
+.recipies3 {
+    width: 470px;
+    height: 430px;
+    background: white;
+}
+
+.recipies3 img {
+    width: 470px;
+    height: 300px;
+}
+
+.info {
+    text-align: left;
+    padding: 0 20px 10px;
+}
+
+.info h3 {
+    font-size: 24px;
+}
+
+.info span {
+    font-size: 20px;
+}
+
+/* nineth block */
+.nineth_block {
+    height: 330px;
+    background: fixed no-repeat url(//res2.weblium.site/res/5cb43e8114a01200248b0171/5cbd76cc696b7100230b836c_optimized_1920);
+}
+
+.nineth_container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nineth_container h1 {
+    margin: 0;
+    padding: 90px 0 100px;
+    color: white;
+    font-size: 32px;
+}
+
+.price_list {
+    color: white;
+    background-color: orange;
+    margin: 0 auto;
+    font-size: 16px;
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 2px solid orange;
+    border-radius: 50px;
+    transition: .3s ease-in;
+    cursor: pointer;
+}
+
+.price_list:hover {
+    background-color: darkorange;
+    border: 2px solid darkorange;
+}
+
+/* tenth block */
+.tenth_block {
+    height: 550px;
+}
+
+.tenth_container {
+    width: 1200px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.locations {
+    display: flex;
+}
+
+.location {
+    margin: 0 20px;
+}
+
+.location img {
+    width: 370px;
+    height: 220px;
+}
+
+.location p {
+    color: silver;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.location a {
+    color: black;
+    font-size: 20px;
+}
+
+/* downbar */
+
+/* job time */
+.downbar {
+    height: 400px;
+    background: rgb(39, 39, 39);
+}
+
+.downbar_container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 90px 15px 30px;
+}
+
+.downbar hr {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.job_time {
+    width: 400px;
+    padding: 0 15px;
+}
+
+.job_time span {
+    display: block;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* links */
+.links1 {
+    width: 200px;
+    padding: 0 15px;
+}
+
+.links1 a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: .3s ease-in;
+}
+
+.links1 a:hover {
+    color: chocolate;
+}
+
+
+
+
+.links2 {
+    width: 300px;
+    padding: 0 15px;
+}
+
+.links2 a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: .3s ease-in;
+}
+
+.links2 a:hover {
+    color: chocolate;
+}
+
+/* follow us */
+.follow_us {
+    width: 300px;
+}
+
+.follow_us h3 {
+    margin: 0;
+    text-align: right;
+    color: white;
+    font-size: 20px;
+}
+
+.end {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.end span {
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+}

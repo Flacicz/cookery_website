@@ -1,0 +1,244 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* first block */
+.first_block {
+    background-color: gray;
+    height: 140px;
+}
+
+.header {
+    padding: 45px 0;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo {
+    display: flex;
+    width: 220px;
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    line-height: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.nav_link {
+    margin: 0 13px;
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    color: white;
+    font-size: 80px;
+    margin-top: 150px;
+}
+
+.title p {
+    color: white;
+    font-size: 24px;
+    margin: 50px 0;
+}
+
+/* second block */
+
+.second_container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    height: 600px;
+    background: white;
+    padding: 0 15px;
+}
+
+.second_container img {
+    position: relative;
+    width: 570px;
+    height: 360px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.text {
+    margin: 0 15px;
+    padding: 200px 0;
+}
+
+/* gallery */
+.gallery {
+    height: 700px;
+
+    background: fixed no-repeat 50% 50% / cover url(//res2.weblium.site/res/5cb43e8114a01200248b0171/5cb4442349aeac0023a29d17_optimized_1920);
+    text-align: center;
+}
+
+.gallery_container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery_container h1 {
+    color: white;
+    font-size: 32px;
+    padding: 100px 0 50px;
+}
+
+.images {
+    width: 1200px;
+    margin: 0 auto;
+    columns: 4;
+}
+
+.images img {
+    width: 270px;
+    height: 180px;
+}
+
+/* our story */
+
+.our_story_container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0;
+    text-align: left;
+    color: gray;
+}
+
+.our_story_container h1{
+    font-size: 32px;
+    padding: 30px 0;
+}
+
+.our_story_container h2{
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.our_story_container p{
+    font-size: 20px;
+
+}
+
+/* downbar */
+
+/* job time */
+.downbar {
+    height: 400px;
+    background: rgb(39, 39, 39);
+}
+
+.downbar_container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 90px 15px 30px;
+}
+
+.downbar hr {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.job_time {
+    width: 400px;
+    padding: 0 15px;
+}
+
+.job_time span {
+    display: block;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* links */
+.links1 {
+    width: 200px;
+    padding: 0 15px;
+}
+
+.links1 a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: .3s ease-in;
+}
+
+.links1 a:hover {
+    color: chocolate;
+}
+
+
+
+
+.links2 {
+    width: 300px;
+    padding: 0 15px;
+}
+
+.links2 a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: .3s ease-in;
+}
+
+.links2 a:hover {
+    color: chocolate;
+}
+
+/* follow us */
+.follow_us {
+    width: 300px;
+}
+
+.follow_us h3 {
+    margin: 0;
+    text-align: right;
+    color: white;
+    font-size: 20px;
+}
+
+.end {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.end span {
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+}
